@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4711BCAE1E98008200DDDE35 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */; };
 		4748D53A1E7B87D0007984A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748D5391E7B87D0007984A7 /* AppDelegate.swift */; };
 		4748D53C1E7B87D0007984A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748D53B1E7B87D0007984A7 /* ViewController.swift */; };
 		4748D53F1E7B87D0007984A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4748D53D1E7B87D0007984A7 /* Main.storyboard */; };
 		4748D5411E7B87D0007984A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4748D5401E7B87D0007984A7 /* Assets.xcassets */; };
 		4748D5441E7B87D0007984A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4748D5421E7B87D0007984A7 /* LaunchScreen.storyboard */; };
+		475BEA691E955AD500075EEC /* AddRecurringPaydayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BEA681E955AD500075EEC /* AddRecurringPaydayViewController.swift */; };
+		475BEA6B1E95F0C400075EEC /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475BEA6A1E95F0C400075EEC /* CellView.xib */; };
+		475BEA6D1E95F4DD00075EEC /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BEA6C1E95F4DD00075EEC /* CellView.swift */; };
+		47F242701E8C7163006257B0 /* SetReoccuringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2426F1E8C7163006257B0 /* SetReoccuringViewController.swift */; };
+		47F242721E8C7242006257B0 /* SetManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F242711E8C7242006257B0 /* SetManualViewController.swift */; };
+		47F242741E8CA30F006257B0 /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F242731E8CA30F006257B0 /* IncomeViewController.swift */; };
+		BFB1CFE42F4C421C0A9A7304 /* Pods_FinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A49457D1547522FEEACCBD /* Pods_FinalProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		307362C98E2BA48F97D75315 /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
+		4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		4748D5361E7B87CF007984A7 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4748D5391E7B87D0007984A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4748D53B1E7B87D0007984A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		4748D5401E7B87D0007984A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4748D5431E7B87D0007984A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4748D5451E7B87D0007984A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475BEA681E955AD500075EEC /* AddRecurringPaydayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecurringPaydayViewController.swift; sourceTree = "<group>"; };
+		475BEA6A1E95F0C400075EEC /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		475BEA6C1E95F4DD00075EEC /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		47F2426F1E8C7163006257B0 /* SetReoccuringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetReoccuringViewController.swift; sourceTree = "<group>"; };
+		47F242711E8C7242006257B0 /* SetManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetManualViewController.swift; sourceTree = "<group>"; };
+		47F242731E8CA30F006257B0 /* IncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		6FDC6C0161AF58A64AA3FBAC /* Pods-FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
+		77A49457D1547522FEEACCBD /* Pods_FinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB1CFE42F4C421C0A9A7304 /* Pods_FinalProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				4748D5381E7B87CF007984A7 /* FinalProject */,
 				4748D5371E7B87CF007984A7 /* Products */,
+				A666D08852FFEDAADFC7DA08 /* Pods */,
+				923642BB2DBCBCEFB21F5783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +81,32 @@
 				4748D5401E7B87D0007984A7 /* Assets.xcassets */,
 				4748D5421E7B87D0007984A7 /* LaunchScreen.storyboard */,
 				4748D5451E7B87D0007984A7 /* Info.plist */,
+				47F2426F1E8C7163006257B0 /* SetReoccuringViewController.swift */,
+				47F242711E8C7242006257B0 /* SetManualViewController.swift */,
+				47F242731E8CA30F006257B0 /* IncomeViewController.swift */,
+				475BEA681E955AD500075EEC /* AddRecurringPaydayViewController.swift */,
+				475BEA6A1E95F0C400075EEC /* CellView.xib */,
+				475BEA6C1E95F4DD00075EEC /* CellView.swift */,
+				4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */,
 			);
 			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		923642BB2DBCBCEFB21F5783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77A49457D1547522FEEACCBD /* Pods_FinalProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A666D08852FFEDAADFC7DA08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FDC6C0161AF58A64AA3FBAC /* Pods-FinalProject.debug.xcconfig */,
+				307362C98E2BA48F97D75315 /* Pods-FinalProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4748D5481E7B87D0007984A7 /* Build configuration list for PBXNativeTarget "FinalProject" */;
 			buildPhases = (
+				4ABB1AA13089E4507BEB4E79 /* [CP] Check Pods Manifest.lock */,
 				4748D5321E7B87CF007984A7 /* Sources */,
 				4748D5331E7B87CF007984A7 /* Frameworks */,
 				4748D5341E7B87CF007984A7 /* Resources */,
+				E9D0AB45AF6A3FDC988211E2 /* [CP] Embed Pods Frameworks */,
+				7C51F01DC5A6E0EB8A804645 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475BEA6B1E95F0C400075EEC /* CellView.xib in Resources */,
 				4748D5441E7B87D0007984A7 /* LaunchScreen.storyboard in Resources */,
 				4748D5411E7B87D0007984A7 /* Assets.xcassets in Resources */,
 				4748D53F1E7B87D0007984A7 /* Main.storyboard in Resources */,
@@ -132,13 +181,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ABB1AA13089E4507BEB4E79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C51F01DC5A6E0EB8A804645 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D0AB45AF6A3FDC988211E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4748D5321E7B87CF007984A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475BEA691E955AD500075EEC /* AddRecurringPaydayViewController.swift in Sources */,
 				4748D53C1E7B87D0007984A7 /* ViewController.swift in Sources */,
+				47F242741E8CA30F006257B0 /* IncomeViewController.swift in Sources */,
+				47F242721E8C7242006257B0 /* SetManualViewController.swift in Sources */,
 				4748D53A1E7B87D0007984A7 /* AppDelegate.swift in Sources */,
+				47F242701E8C7163006257B0 /* SetReoccuringViewController.swift in Sources */,
+				475BEA6D1E95F4DD00075EEC /* CellView.swift in Sources */,
+				4711BCAE1E98008200DDDE35 /* BudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +362,7 @@
 		};
 		4748D5491E7B87D0007984A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDC6C0161AF58A64AA3FBAC /* Pods-FinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QV7BK3D75T;
@@ -272,6 +376,7 @@
 		};
 		4748D54A1E7B87D0007984A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307362C98E2BA48F97D75315 /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QV7BK3D75T;
@@ -302,6 +407,7 @@
 				4748D54A1E7B87D0007984A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
