@@ -15,11 +15,10 @@ class SetManualViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        super.viewDidLoad()
         calendarView.dataSource = self
         calendarView.delegate = self
         calendarView.registerCellViewXib(file: "CellView") // Registering your cell is manditory
+        calendarView.registerHeaderView(xibFileNames: ["MonthHeaderView"])
     }
 
     override func didReceiveMemoryWarning() {
@@ -122,8 +121,18 @@ extension SetManualViewController: JTAppleCalendarViewDataSource, JTAppleCalenda
         }
     }
     
-    /*func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleDayCellView?, cellState: CellState) {
-        let myCustomCell = cell as! CellView
-        myCustomCell.selectedView.isHidden = true
-    }*/
+    // This sets the height of your header
+    func calendar(_ calendar: JTAppleCalendarView, sectionHeaderSizeFor range: (start: Date, end: Date), belongingTo month: Int) -> CGSize {
+        return CGSize(width: 200, height: 80)
+    }
+    
+    // This setups the display of your header
+    func calendar(_ calendar: JTAppleCalendarView, willDisplaySectionHeader header: JTAppleHeaderView, range: (start: Date, end: Date), identifier: String) {
+        let headerCell = (header as? MonthHeaderView)
+        
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        formatter.dateFormat = "MMMM"
+        headerCell?.monthLabel.text = formatter.string(from: range.start)
+    }
 }

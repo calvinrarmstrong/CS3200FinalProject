@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4711BCAE1E98008200DDDE35 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */; };
+		473670921EA69CB900E55C2B /* MonthHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473670911EA69CB900E55C2B /* MonthHeaderView.xib */; };
+		473670941EA69D2100E55C2B /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473670931EA69D2100E55C2B /* MonthHeaderView.swift */; };
 		4748D53A1E7B87D0007984A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748D5391E7B87D0007984A7 /* AppDelegate.swift */; };
 		4748D53C1E7B87D0007984A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748D53B1E7B87D0007984A7 /* ViewController.swift */; };
 		4748D53F1E7B87D0007984A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4748D53D1E7B87D0007984A7 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		307362C98E2BA48F97D75315 /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
 		4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		473670911EA69CB900E55C2B /* MonthHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthHeaderView.xib; sourceTree = "<group>"; };
+		473670931EA69D2100E55C2B /* MonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
 		4748D5361E7B87CF007984A7 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4748D5391E7B87D0007984A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4748D53B1E7B87D0007984A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				475BEA6A1E95F0C400075EEC /* CellView.xib */,
 				475BEA6C1E95F4DD00075EEC /* CellView.swift */,
 				4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */,
+				473670911EA69CB900E55C2B /* MonthHeaderView.xib */,
+				473670931EA69D2100E55C2B /* MonthHeaderView.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -174,6 +180,7 @@
 			files = (
 				475BEA6B1E95F0C400075EEC /* CellView.xib in Resources */,
 				4748D5441E7B87D0007984A7 /* LaunchScreen.storyboard in Resources */,
+				473670921EA69CB900E55C2B /* MonthHeaderView.xib in Resources */,
 				4748D5411E7B87D0007984A7 /* Assets.xcassets in Resources */,
 				4748D53F1E7B87D0007984A7 /* Main.storyboard in Resources */,
 			);
@@ -238,6 +245,7 @@
 				4748D53C1E7B87D0007984A7 /* ViewController.swift in Sources */,
 				47F242741E8CA30F006257B0 /* IncomeViewController.swift in Sources */,
 				47F242721E8C7242006257B0 /* SetManualViewController.swift in Sources */,
+				473670941EA69D2100E55C2B /* MonthHeaderView.swift in Sources */,
 				4748D53A1E7B87D0007984A7 /* AppDelegate.swift in Sources */,
 				47F242701E8C7163006257B0 /* SetReoccuringViewController.swift in Sources */,
 				475BEA6D1E95F4DD00075EEC /* CellView.swift in Sources */,
