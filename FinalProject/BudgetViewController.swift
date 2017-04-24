@@ -9,7 +9,7 @@
 import UIKit
 
 class BudgetViewController: UIViewController {
-    override func viewDidLoad() {
+    override func viewWillAppear(_ animated: Bool) {
         self.navigationItem.setHidesBackButton(true, animated: false)
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }

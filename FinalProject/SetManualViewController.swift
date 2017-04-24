@@ -132,7 +132,7 @@ extension SetManualViewController: JTAppleCalendarViewDataSource, JTAppleCalenda
         
         let formatter = DateFormatter()
         formatter.dateStyle = .long
-        formatter.dateFormat = "MMMM"
+        formatter.dateFormat = "MMMM yyyy"
         headerCell?.monthLabel.text = formatter.string(from: range.start)
     }
 }

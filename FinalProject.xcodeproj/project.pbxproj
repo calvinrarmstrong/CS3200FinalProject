@@ -10,6 +10,10 @@
 		4711BCAE1E98008200DDDE35 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */; };
 		473670921EA69CB900E55C2B /* MonthHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473670911EA69CB900E55C2B /* MonthHeaderView.xib */; };
 		473670941EA69D2100E55C2B /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473670931EA69D2100E55C2B /* MonthHeaderView.swift */; };
+		473670971EA86EF100E55C2B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473670951EA86EF100E55C2B /* Realm.framework */; };
+		473670981EA86EF100E55C2B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 473670951EA86EF100E55C2B /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		473670991EA86EF100E55C2B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473670961EA86EF100E55C2B /* RealmSwift.framework */; };
+		4736709A1EA86EF100E55C2B /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 473670961EA86EF100E55C2B /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4748D53A1E7B87D0007984A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748D5391E7B87D0007984A7 /* AppDelegate.swift */; };
 		4748D53C1E7B87D0007984A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748D53B1E7B87D0007984A7 /* ViewController.swift */; };
 		4748D53F1E7B87D0007984A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4748D53D1E7B87D0007984A7 /* Main.storyboard */; };
@@ -18,17 +22,36 @@
 		475BEA691E955AD500075EEC /* AddRecurringPaydayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BEA681E955AD500075EEC /* AddRecurringPaydayViewController.swift */; };
 		475BEA6B1E95F0C400075EEC /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475BEA6A1E95F0C400075EEC /* CellView.xib */; };
 		475BEA6D1E95F4DD00075EEC /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475BEA6C1E95F4DD00075EEC /* CellView.swift */; };
+		47EE51131EA98C5300CB9B70 /* Payday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE51121EA98C5300CB9B70 /* Payday.swift */; };
+		47EE511B1EAE633300CB9B70 /* AddBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE511A1EAE633300CB9B70 /* AddBill.swift */; };
 		47F242701E8C7163006257B0 /* SetReoccuringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2426F1E8C7163006257B0 /* SetReoccuringViewController.swift */; };
 		47F242721E8C7242006257B0 /* SetManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F242711E8C7242006257B0 /* SetManualViewController.swift */; };
 		47F242741E8CA30F006257B0 /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F242731E8CA30F006257B0 /* IncomeViewController.swift */; };
 		BFB1CFE42F4C421C0A9A7304 /* Pods_FinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A49457D1547522FEEACCBD /* Pods_FinalProject.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4736709B1EA86EF100E55C2B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4736709A1EA86EF100E55C2B /* RealmSwift.framework in Embed Frameworks */,
+				473670981EA86EF100E55C2B /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		307362C98E2BA48F97D75315 /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
 		4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		473670911EA69CB900E55C2B /* MonthHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthHeaderView.xib; sourceTree = "<group>"; };
 		473670931EA69D2100E55C2B /* MonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
+		473670951EA86EF100E55C2B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		473670961EA86EF100E55C2B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		4748D5361E7B87CF007984A7 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4748D5391E7B87D0007984A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4748D53B1E7B87D0007984A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +62,8 @@
 		475BEA681E955AD500075EEC /* AddRecurringPaydayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecurringPaydayViewController.swift; sourceTree = "<group>"; };
 		475BEA6A1E95F0C400075EEC /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 		475BEA6C1E95F4DD00075EEC /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		47EE51121EA98C5300CB9B70 /* Payday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payday.swift; sourceTree = "<group>"; };
+		47EE511A1EAE633300CB9B70 /* AddBill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBill.swift; sourceTree = "<group>"; };
 		47F2426F1E8C7163006257B0 /* SetReoccuringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetReoccuringViewController.swift; sourceTree = "<group>"; };
 		47F242711E8C7242006257B0 /* SetManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetManualViewController.swift; sourceTree = "<group>"; };
 		47F242731E8CA30F006257B0 /* IncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473670971EA86EF100E55C2B /* Realm.framework in Frameworks */,
 				BFB1CFE42F4C421C0A9A7304 /* Pods_FinalProject.framework in Frameworks */,
+				473670991EA86EF100E55C2B /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,8 @@
 		4748D52D1E7B87CF007984A7 = {
 			isa = PBXGroup;
 			children = (
+				473670951EA86EF100E55C2B /* Realm.framework */,
+				473670961EA86EF100E55C2B /* RealmSwift.framework */,
 				4748D5381E7B87CF007984A7 /* FinalProject */,
 				4748D5371E7B87CF007984A7 /* Products */,
 				A666D08852FFEDAADFC7DA08 /* Pods */,
@@ -89,11 +118,13 @@
 				47F242711E8C7242006257B0 /* SetManualViewController.swift */,
 				47F242731E8CA30F006257B0 /* IncomeViewController.swift */,
 				475BEA681E955AD500075EEC /* AddRecurringPaydayViewController.swift */,
+				47EE51121EA98C5300CB9B70 /* Payday.swift */,
 				475BEA6A1E95F0C400075EEC /* CellView.xib */,
 				475BEA6C1E95F4DD00075EEC /* CellView.swift */,
 				4711BCAD1E98008200DDDE35 /* BudgetViewController.swift */,
 				473670911EA69CB900E55C2B /* MonthHeaderView.xib */,
 				473670931EA69D2100E55C2B /* MonthHeaderView.swift */,
+				47EE511A1EAE633300CB9B70 /* AddBill.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -128,6 +159,7 @@
 				4748D5341E7B87CF007984A7 /* Resources */,
 				E9D0AB45AF6A3FDC988211E2 /* [CP] Embed Pods Frameworks */,
 				7C51F01DC5A6E0EB8A804645 /* [CP] Copy Pods Resources */,
+				4736709B1EA86EF100E55C2B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,12 +276,14 @@
 				475BEA691E955AD500075EEC /* AddRecurringPaydayViewController.swift in Sources */,
 				4748D53C1E7B87D0007984A7 /* ViewController.swift in Sources */,
 				47F242741E8CA30F006257B0 /* IncomeViewController.swift in Sources */,
+				47EE51131EA98C5300CB9B70 /* Payday.swift in Sources */,
 				47F242721E8C7242006257B0 /* SetManualViewController.swift in Sources */,
 				473670941EA69D2100E55C2B /* MonthHeaderView.swift in Sources */,
 				4748D53A1E7B87D0007984A7 /* AppDelegate.swift in Sources */,
 				47F242701E8C7163006257B0 /* SetReoccuringViewController.swift in Sources */,
 				475BEA6D1E95F4DD00075EEC /* CellView.swift in Sources */,
 				4711BCAE1E98008200DDDE35 /* BudgetViewController.swift in Sources */,
+				47EE511B1EAE633300CB9B70 /* AddBill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +408,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QV7BK3D75T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calvinrileyarmstrong.FinalProject;
@@ -388,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QV7BK3D75T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calvinrileyarmstrong.FinalProject;

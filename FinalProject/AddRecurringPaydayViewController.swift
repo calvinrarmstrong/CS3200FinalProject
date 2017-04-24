@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import RealmSwift
 
 class AddRecurringPaydayViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var numDaysTextField: UITextField!
+    @IBOutlet weak var paydatePicker: UIDatePicker!
+    @IBOutlet weak var repeatPicker: UIPickerView!
+    
+    
+    var repeatOptions = ["None", "Month", "Two Weeks", "Week"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +31,30 @@ class AddRecurringPaydayViewController: UIViewController {
         numDaysTextField.inputAccessoryView = toolBar
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        paydatePicker.maximumDate = Date()
+    }
+    
     func doneClicked()
     {
         self.view.endEditing(true)
     }
 
+    @IBAction func SavePayday(_ sender: Any) {
+        
+        let realm = try! Realm()
+        
+        let payday = Payday()
+        payday.paydate = paydatePicker.date
+        payday.reoccurrence = repeatPicker.selectedRow(inComponent: 0)
+        
+        try! realm.write {
+            realm.add(payday)
+        }
+        
+        navigationController?.popViewController(animated: true)
+        
+    }
 }
 
 extension AddRecurringPaydayViewController: UITextFieldDelegate{
@@ -44,4 +69,20 @@ extension AddRecurringPaydayViewController: UITextFieldDelegate{
         let point = CGPoint(x: 0, y: 0)
         scrollView.setContentOffset(point, animated: true)
     }
+}
+
+extension AddRecurringPaydayViewController: UIPickerViewDataSource, UIPickerViewDelegate
+{
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return repeatOptions.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return repeatOptions[row]
+    }
+    
 }
